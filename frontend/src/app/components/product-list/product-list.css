@@ -1,0 +1,39 @@
+.product-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.product-card h3 {
+  margin: 0 0 8px 0;
+}
+
+.category {
+  color: #777;
+  font-size: 0.85rem;
+  margin: 0 0 8px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #2e7d32;
+  margin: 0 0 8px 0;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #555;
+}
